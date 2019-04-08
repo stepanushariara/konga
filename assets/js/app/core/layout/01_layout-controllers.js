@@ -283,7 +283,7 @@
             show: function () {
               return AuthService.hasPermission('apis', 'read') && $rootScope.Gateway
             },
-            title: 'APIs <small>(deprecated)</small>',
+            title: 'APIs',
             icon: 'mdi-cloud-outline',
             access: AccessLevels.user
           },
